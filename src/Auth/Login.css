@@ -1,0 +1,85 @@
+.login__Div {
+  padding: 7em 0;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+.login-wrap {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+  -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+}
+
+.login-wrap .icon {
+  width: 80px;
+  height: 80px;
+  background: #1089ff;
+  border-radius: 50%;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.login-wrap .icon span {
+  color: #fff;
+}
+
+.login-wrap h3 {
+  font-weight: 300;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.checkbox-wrap {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+}
+
+.checkbox-primary {
+  color: #1089ff;
+}
+
+.checkbox-wrap input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkbox-primary input:checked ~ .checkmark:after {
+  color: #1089ff;
+}
+
+.checkbox-wrap input:checked ~ .checkmark:after {
+  display: block;
+  content: "\f14a";
+  font-family: "FontAwesome";
+}
+
+.checkmark:after {
+  position: absolute;
+  font-size: 20px;
+  margin-top: -4px;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
