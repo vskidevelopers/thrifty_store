@@ -1,0 +1,26 @@
+.breadcrumb {
+  background: #f8f9fa;
+}
+
+.breadcrumb-item {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 900;
+  color: #111111;
+}
+
+.breadcrumb-item a {
+  color: inherit;
+  transition: all 0.3s;
+}
+
+.breadcrumb-item a:hover,
+.breadcrumb-item a:focus {
+  color: #dcb14a;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: #aaa;
+}

@@ -1,0 +1,23 @@
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.reset-anchor {
+  color: inherit;
+  transition: all 0.3s;
+}
+
+.reset-anchor:hover,
+.reset-anchor:focus {
+  text-decoration: none;
+}
+
+.index-forward {
+  z-index: 99;
+  position: relative;
+}
+
+.headings-font-family {
+  font-family: inherit !important;
+}

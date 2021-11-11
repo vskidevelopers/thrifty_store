@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Footer.css";
 
@@ -11,24 +12,24 @@ function Footer() {
             <h6 className="text-uppercase mb-3">Customer services</h6>
             <ul className="list-unstyled mb-0">
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   Help &amp; Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   Returns &amp; Refunds
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   Online Stores
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   Terms &amp; Conditions
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -36,24 +37,24 @@ function Footer() {
             <h6 className="text-uppercase mb-3">Thrifty Shop</h6>
             <ul className="list-unstyled mb-0">
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   What We Do
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   Available Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   Latest Posts
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <Link className="footer-link" to="#">
                   FAQs
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -61,24 +62,24 @@ function Footer() {
             <h6 className="text-uppercase mb-3">Social media</h6>
             <ul className="list-unstyled mb-0">
               <li>
-                <a className="footer-link" href="">
+                <Link className="footer-link" to="">
                   Twitter
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="">
+                <Link className="footer-link" to="">
                   Instagram
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="">
+                <Link className="footer-link" to="">
                   Tumblr
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="footer-link" href="">
+                <Link className="footer-link" to="">
                   Pinterest
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

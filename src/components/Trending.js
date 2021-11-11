@@ -1,8 +1,9 @@
 import React from "react";
-import prod1 from "../images/prod1.png";
-import prod2 from "../images/prod2.png";
-import prod3 from "../images/prod3.jpg";
-import prod4 from "../images/prod4.jpg";
+import { Link } from "react-router-dom";
+import prod1 from "../images/home/prod1.png";
+import prod2 from "../images/home/prod2.png";
+import prod3 from "../images/home/prod3.jpg";
+import prod4 from "../images/home/prod4.jpg";
 
 import "./Trending.css";
 
@@ -18,33 +19,33 @@ function Trending() {
           <div className="product text-center">
             <div className="position-relative mb-3">
               <div className="badge text-white badge-"></div>
-              <a href="" className="d-block">
+              <Link to="#" className="d-block">
                 <img src={prod1} alt="" className="img-fluid w-100" />
-              </a>
+              </Link>
               <div className="product-overlay">
                 <ul className="mb-0 list-inline">
                   <li className="list-inline-item m-0 p-0">
-                    <a href="" className="btn btn-sm btn-outline-dark">
+                    <Link to="#" className="btn btn-sm btn-outline-dark">
                       <i className="fa fa-heart"></i>
-                    </a>
+                    </Link>
                     <li className="list-inline-item m-0 p-0">
-                      <a href="" className="btn btn-sm btn-dark">
+                      <Link to="#" className="btn btn-sm btn-dark">
                         Add to cart
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-inline-item mr-0">
-                      <a href="" className="btn btn-sm btn-outline-dark">
+                      <Link to="#" className="btn btn-sm btn-outline-dark">
                         <i className="fa fa-shopping-cart"></i>
-                      </a>
+                      </Link>
                     </li>
                   </li>
                 </ul>
               </div>
             </div>
             <h6>
-              <a href="" className="reset-anchor">
+              <Link to="#" className="reset-anchor">
                 Alpha Hoodies
-              </a>
+              </Link>
             </h6>
             <p className="small text-muted"> $250</p>
           </div>
@@ -54,33 +55,33 @@ function Trending() {
           <div className="product text-center">
             <div className="position-relative mb-3">
               <div className="badge text-white badge-"></div>
-              <a href="" className="d-block">
+              <Link to="#" className="d-block">
                 <img src={prod2} alt="" className="img-fluid w-100" />
-              </a>
+              </Link>
               <div className="product-overlay">
                 <ul className="mb-0 list-inline">
                   <li className="list-inline-item m-0 p-0">
-                    <a href="" className="btn btn-sm btn-outline-dark">
+                    <Link to="#" className="btn btn-sm btn-outline-dark">
                       <i className="fa fa-heart"></i>
-                    </a>
+                    </Link>
                     <li className="list-inline-item m-0 p-0">
-                      <a href="" className="btn btn-sm btn-dark">
+                      <Link to="#" className="btn btn-sm btn-dark">
                         Add to cart
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-inline-item mr-0">
-                      <a href="" className="btn btn-sm btn-outline-dark">
+                      <Link to="#" className="btn btn-sm btn-outline-dark">
                         <i className="fa fa-shopping-cart"></i>
-                      </a>
+                      </Link>
                     </li>
                   </li>
                 </ul>
               </div>
             </div>
             <h6>
-              <a href="" className="reset-anchor">
+              <Link to="#" className="reset-anchor">
                 Chanel T-shirts
-              </a>
+              </Link>
             </h6>
             <p className="small text-muted"> $250</p>
           </div>
@@ -90,33 +91,33 @@ function Trending() {
           <div className="product text-center">
             <div className="position-relative mb-3">
               <div className="badge text-white badge-"></div>
-              <a href="" className="d-block">
+              <Link to="#" className="d-block">
                 <img src={prod3} alt="" className="img-fluid w-100" />
-              </a>
+              </Link>
               <div className="product-overlay">
                 <ul className="mb-0 list-inline">
                   <li className="list-inline-item m-0 p-0">
-                    <a href="" className="btn btn-sm btn-outline-dark">
+                    <Link to="#" className="btn btn-sm btn-outline-dark">
                       <i className="fa fa-heart"></i>
-                    </a>
+                    </Link>
                     <li className="list-inline-item m-0 p-0">
-                      <a href="" className="btn btn-sm btn-dark">
+                      <Link to="#" className="btn btn-sm btn-dark">
                         Add to cart
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-inline-item mr-0">
-                      <a href="" className="btn btn-sm btn-outline-dark">
+                      <Link to="#" className="btn btn-sm btn-outline-dark">
                         <i className="fa fa-shopping-cart"></i>
-                      </a>
+                      </Link>
                     </li>
                   </li>
                 </ul>
               </div>
             </div>
             <h6>
-              <a href="" className="reset-anchor">
+              <Link to="#" className="reset-anchor">
                 Air Jordan Tshirts
-              </a>
+              </Link>
             </h6>
             <p className="small text-muted"> $250</p>
           </div>
@@ -126,33 +127,33 @@ function Trending() {
           <div className="product text-center">
             <div className="position-relative mb-3">
               <div className="badge text-white badge-"></div>
-              <a href="" className="d-block">
+              <Link to="#" className="d-block">
                 <img src={prod4} alt="" className="img-fluid w-auto" />
-              </a>
+              </Link>
               <div className="product-overlay">
                 <ul className="mb-0 list-inline">
                   <li className="list-inline-item m-0 p-0">
-                    <a href="" className="btn btn-sm btn-outline-dark">
+                    <Link to="#" className="btn btn-sm btn-outline-dark">
                       <i className="fa fa-heart"></i>
-                    </a>
+                    </Link>
                     <li className="list-inline-item m-0 p-0">
-                      <a href="" className="btn btn-sm btn-dark">
+                      <Link to="#" className="btn btn-sm btn-dark">
                         Add to cart
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-inline-item mr-0">
-                      <a href="" className="btn btn-sm btn-outline-dark">
+                      <Link to="#" className="btn btn-sm btn-outline-dark">
                         <i className="fa fa-shopping-cart"></i>
-                      </a>
+                      </Link>
                     </li>
                   </li>
                 </ul>
               </div>
             </div>
             <h6>
-              <a href="" className="reset-anchor">
+              <Link to="#" className="reset-anchor">
                 Denim Jackets
-              </a>
+              </Link>
             </h6>
             <p className="small text-muted"> $250</p>
           </div>

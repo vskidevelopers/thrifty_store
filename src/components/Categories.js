@@ -1,8 +1,9 @@
 import React from "react";
-import cat1 from "../images/cat-1.png";
-import cat2 from "../images/cat-2.jpg";
-import cat3 from "../images/cat-3.jpg";
-import cat4 from "../images/cat-4.jpg";
+import { Link } from "react-router-dom";
+import cat1 from "../images/home/cat-1.png";
+import cat2 from "../images/home/cat-2.jpg";
+import cat3 from "../images/home/cat-3.jpg";
+import cat4 from "../images/home/cat-4.jpg";
 
 import "./Categories.css";
 function Categories() {
@@ -16,28 +17,28 @@ function Categories() {
       </header>
       <div className="row">
         <div className="col-md-4 mb-4 mb-md-0">
-          <a href="" className="category-item">
+          <Link href="" className="category-item">
             <img src={cat1} alt="" className="img-fluid" />
             <strong className="category-item-title">Shirts</strong>
-          </a>
+          </Link>
         </div>
 
         <div className="col-md-4 mb-4 mb-md-0">
-          <a href="" className="category-item mb-4">
+          <Link to="#" className="category-item mb-4">
             <img src={cat2} alt="" className="img-fluid" />
             <strong className="category-item-title">Shoes</strong>
-          </a>
-          <a href="" className="category-item">
+          </Link>
+          <Link to="#" className="category-item">
             <img src={cat4} alt="" className="img-fluid" />
             <strong className="category-item-title">Socks</strong>
-          </a>
+          </Link>
         </div>
 
         <div className="col-md-4">
-          <a href="" className="category-item">
+          <Link to="#" className="category-item">
             <img src={cat3} alt="" className="img-fluid" />
             <strong className="category-item-title">Hoodies</strong>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

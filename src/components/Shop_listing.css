@@ -1,0 +1,134 @@
+.bootstrap-select {
+  display: block !important;
+}
+
+.bootstrap-select .bs-select-form-control.dropdown-toggle {
+  display: block !important;
+  border: 1px solid #ced4da !important;
+  padding: 0.2rem 1rem !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.bootstrap-select .bs-select-form-control.dropdown-toggle::after {
+  margin-left: -0.5rem !important;
+}
+
+.bootstrap-select .dropdown-menu {
+  padding: 0;
+  border-radius: 0;
+  border-color: #ddd;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  max-height: 200px !important;
+  -webkit-transform: none !important;
+  transform: none !important;
+  margin: 0 !important;
+  max-width: 100%;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-item {
+  padding: 0.7rem 1rem;
+  transition: all 0.3s;
+  outline: none !important;
+  font-size: 0.85rem;
+  -webkit-transform: none !important;
+  transform: none !important;
+  font-weight: 300;
+  border-bottom: 1px solid #eee;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-item.active,
+.bootstrap-select .dropdown-menu .dropdown-item:active {
+  background: #f8f9fa !important;
+  color: #343a40 !important;
+}
+
+.bootstrap-select .filter-option-inner-inner {
+  color: #adb5bd;
+  font-size: 0.85rem;
+  font-weight: 300;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.5rem !important;
+  text-transform: capitalize;
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+  letter-spacing: 0;
+}
+
+.bootstrap-select .filter-option-inner-inner.selected {
+  color: #111111;
+  font-size: 0.95rem;
+}
+
+.bootstrap-select .bs-searchbox {
+  padding: 0.5rem;
+}
+
+.bootstrap-select .bs-searchbox input {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.bootstrap-select .bs-searchbox input:focus {
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+.bootstrap-select .bs-searchbox input::-webkit-input-placeholder {
+  font-weight: 300;
+}
+
+.bootstrap-select .bs-searchbox input::-moz-placeholder {
+  font-weight: 300;
+}
+
+.bootstrap-select .bs-searchbox input:-ms-input-placeholder {
+  font-weight: 300;
+}
+
+.bootstrap-select .bs-searchbox input::-ms-input-placeholder {
+  font-weight: 300;
+}
+
+.bootstrap-select .bs-searchbox input::placeholder {
+  font-weight: 300;
+}
+
+.bootstrap-select .no-results {
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0.2rem 1rem;
+}
+
+.bootstrap-select button.dropdown-toggle:active,
+.bootstrap-select button.dropdown-toggle:focus {
+  outline: none !important;
+}
+
+.bootstrap-select button.dropdown-toggle::after {
+  border: none;
+  content: "\f078" !important;
+  font-family: "Font Awesome\ 5 Free";
+  font-weight: 900;
+  font-size: 0.65rem;
+  vertical-align: middle !important;
+  padding-left: 0.1rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  right: 1rem;
+  top: calc(50% + 2px);
+}
+
+.bootstrap-select button.dropdown-toggle.form-control-lg .filter-option {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.bootstrap-select .dropdown-toggle[aria-expanded="true"]::after {
+  content: "\f077" !important;
+}

@@ -1,5 +1,6 @@
 import React from "react";
-import background from "../images/banner.jpg";
+import { Link } from "react-router-dom";
+import background from "../images/home/banner.jpg";
 
 import "./Hero.css";
 
@@ -17,9 +18,9 @@ function HeroBanner() {
                 New Inspiration 2020
               </p>
               <h1 className="h2 text-uppercase mb-3">20% off on new season</h1>
-              <a className="btn btn-dark" href="">
+              <Link className="btn btn-dark" to="#">
                 Browse collections
-              </a>
+              </Link>
             </div>
           </div>
         </div>
